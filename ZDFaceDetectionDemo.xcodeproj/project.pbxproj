@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04540C885448AC1C093FC7FB /* libPods-ZDFaceDetectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1196626500D5A75CE34014E /* libPods-ZDFaceDetectionDemo.a */; };
+		D3D4264BD269592C65D0A6F2 /* libPods-ZDFaceDetectionDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780093F663D6E199AD740B4D /* libPods-ZDFaceDetectionDemoUITests.a */; };
+		DA1563C61F149F5F0061FA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563C51F149F5F0061FA2E /* main.m */; };
+		DA1563C91F149F5F0061FA2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563C81F149F5F0061FA2E /* AppDelegate.m */; };
+		DA1563CF1F149F5F0061FA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1563CD1F149F5F0061FA2E /* Main.storyboard */; };
+		DA1563D11F149F5F0061FA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1563D01F149F5F0061FA2E /* Assets.xcassets */; };
+		DA1563D41F149F5F0061FA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1563D21F149F5F0061FA2E /* LaunchScreen.storyboard */; };
+		DA1563DF1F149F600061FA2E /* ZDFaceDetectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563DE1F149F600061FA2E /* ZDFaceDetectionDemoTests.m */; };
+		DA1563EA1F149F600061FA2E /* ZDFaceDetectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563E91F149F600061FA2E /* ZDFaceDetectionDemoUITests.m */; };
+		DA1563FA1F14A0500061FA2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563F91F14A0500061FA2E /* ViewController.m */; };
+		DA1563FD1F14A0680061FA2E /* ZDFaceDetectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1563FC1F14A0680061FA2E /* ZDFaceDetectController.m */; };
+		DA1564051F14A7010061FA2E /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1564041F14A7010061FA2E /* UIImage+fixOrientation.m */; };
+		DD42F7D31B591E46A26BBA28 /* libPods-ZDFaceDetectionDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 218C86111578B4657F1DBBBE /* libPods-ZDFaceDetectionDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1563DB1F149F600061FA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1563B91F149F5F0061FA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1563C01F149F5F0061FA2E;
+			remoteInfo = ZDFaceDetectionDemo;
+		};
+		DA1563E61F149F600061FA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1563B91F149F5F0061FA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1563C01F149F5F0061FA2E;
+			remoteInfo = ZDFaceDetectionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F526A6B6882AC116F93496 /* Pods-ZDFaceDetectionDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemoTests/Pods-ZDFaceDetectionDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		218C86111578B4657F1DBBBE /* libPods-ZDFaceDetectionDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDFaceDetectionDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F458FDC9F2F48073044A476 /* Pods-ZDFaceDetectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemo/Pods-ZDFaceDetectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		780093F663D6E199AD740B4D /* libPods-ZDFaceDetectionDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDFaceDetectionDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E6A0269A3559BD15958125 /* Pods-ZDFaceDetectionDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemoUITests/Pods-ZDFaceDetectionDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD66891680715ECD05396958 /* Pods-ZDFaceDetectionDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemoTests/Pods-ZDFaceDetectionDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1196626500D5A75CE34014E /* libPods-ZDFaceDetectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZDFaceDetectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1563C11F149F5F0061FA2E /* ZDFaceDetectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDFaceDetectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1563C51F149F5F0061FA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA1563C71F149F5F0061FA2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA1563C81F149F5F0061FA2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA1563CE1F149F5F0061FA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1563D01F149F5F0061FA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1563D31F149F5F0061FA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1563D51F149F5F0061FA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1563DA1F149F600061FA2E /* ZDFaceDetectionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDFaceDetectionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1563DE1F149F600061FA2E /* ZDFaceDetectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDFaceDetectionDemoTests.m; sourceTree = "<group>"; };
+		DA1563E01F149F600061FA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1563E51F149F600061FA2E /* ZDFaceDetectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDFaceDetectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1563E91F149F600061FA2E /* ZDFaceDetectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDFaceDetectionDemoUITests.m; sourceTree = "<group>"; };
+		DA1563EB1F149F600061FA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1563F81F14A0500061FA2E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA1563F91F14A0500061FA2E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA1563FB1F14A0680061FA2E /* ZDFaceDetectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFaceDetectController.h; sourceTree = "<group>"; };
+		DA1563FC1F14A0680061FA2E /* ZDFaceDetectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFaceDetectController.m; sourceTree = "<group>"; };
+		DA1564031F14A7010061FA2E /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		DA1564041F14A7010061FA2E /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		FCFFECFEA26A367FC7D6995D /* Pods-ZDFaceDetectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemo/Pods-ZDFaceDetectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE6A2480F657D88D4D6D8ED1 /* Pods-ZDFaceDetectionDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDFaceDetectionDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZDFaceDetectionDemoUITests/Pods-ZDFaceDetectionDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1563BE1F149F5F0061FA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04540C885448AC1C093FC7FB /* libPods-ZDFaceDetectionDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563D71F149F600061FA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42F7D31B591E46A26BBA28 /* libPods-ZDFaceDetectionDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563E21F149F600061FA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4264BD269592C65D0A6F2 /* libPods-ZDFaceDetectionDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53BA7340282B70617D16102E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1196626500D5A75CE34014E /* libPods-ZDFaceDetectionDemo.a */,
+				218C86111578B4657F1DBBBE /* libPods-ZDFaceDetectionDemoTests.a */,
+				780093F663D6E199AD740B4D /* libPods-ZDFaceDetectionDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		729D1C5D4E2D3D7D39BC0428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCFFECFEA26A367FC7D6995D /* Pods-ZDFaceDetectionDemo.debug.xcconfig */,
+				2F458FDC9F2F48073044A476 /* Pods-ZDFaceDetectionDemo.release.xcconfig */,
+				BD66891680715ECD05396958 /* Pods-ZDFaceDetectionDemoTests.debug.xcconfig */,
+				01F526A6B6882AC116F93496 /* Pods-ZDFaceDetectionDemoTests.release.xcconfig */,
+				B9E6A0269A3559BD15958125 /* Pods-ZDFaceDetectionDemoUITests.debug.xcconfig */,
+				FE6A2480F657D88D4D6D8ED1 /* Pods-ZDFaceDetectionDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA1563B81F149F5F0061FA2E = {
+			isa = PBXGroup;
+			children = (
+				DA1563C31F149F5F0061FA2E /* ZDFaceDetectionDemo */,
+				DA1563DD1F149F600061FA2E /* ZDFaceDetectionDemoTests */,
+				DA1563E81F149F600061FA2E /* ZDFaceDetectionDemoUITests */,
+				DA1563C21F149F5F0061FA2E /* Products */,
+				729D1C5D4E2D3D7D39BC0428 /* Pods */,
+				53BA7340282B70617D16102E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1563C21F149F5F0061FA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563C11F149F5F0061FA2E /* ZDFaceDetectionDemo.app */,
+				DA1563DA1F149F600061FA2E /* ZDFaceDetectionDemoTests.xctest */,
+				DA1563E51F149F600061FA2E /* ZDFaceDetectionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1563C31F149F5F0061FA2E /* ZDFaceDetectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563F71F14A0500061FA2E /* Controllers */,
+				DA1564021F14A7010061FA2E /* Tools */,
+				DA1563C71F149F5F0061FA2E /* AppDelegate.h */,
+				DA1563C81F149F5F0061FA2E /* AppDelegate.m */,
+				DA1563CD1F149F5F0061FA2E /* Main.storyboard */,
+				DA1563D01F149F5F0061FA2E /* Assets.xcassets */,
+				DA1563D21F149F5F0061FA2E /* LaunchScreen.storyboard */,
+				DA1563D51F149F5F0061FA2E /* Info.plist */,
+				DA1563C41F149F5F0061FA2E /* Supporting Files */,
+			);
+			path = ZDFaceDetectionDemo;
+			sourceTree = "<group>";
+		};
+		DA1563C41F149F5F0061FA2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563C51F149F5F0061FA2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA1563DD1F149F600061FA2E /* ZDFaceDetectionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563DE1F149F600061FA2E /* ZDFaceDetectionDemoTests.m */,
+				DA1563E01F149F600061FA2E /* Info.plist */,
+			);
+			path = ZDFaceDetectionDemoTests;
+			sourceTree = "<group>";
+		};
+		DA1563E81F149F600061FA2E /* ZDFaceDetectionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563E91F149F600061FA2E /* ZDFaceDetectionDemoUITests.m */,
+				DA1563EB1F149F600061FA2E /* Info.plist */,
+			);
+			path = ZDFaceDetectionDemoUITests;
+			sourceTree = "<group>";
+		};
+		DA1563F71F14A0500061FA2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA1563F81F14A0500061FA2E /* ViewController.h */,
+				DA1563F91F14A0500061FA2E /* ViewController.m */,
+				DA1563FB1F14A0680061FA2E /* ZDFaceDetectController.h */,
+				DA1563FC1F14A0680061FA2E /* ZDFaceDetectController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DA1564021F14A7010061FA2E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DA1564031F14A7010061FA2E /* UIImage+fixOrientation.h */,
+				DA1564041F14A7010061FA2E /* UIImage+fixOrientation.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1563C01F149F5F0061FA2E /* ZDFaceDetectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1563EE1F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemo" */;
+			buildPhases = (
+				344F0C21DC3849D04A60600F /* [CP] Check Pods Manifest.lock */,
+				DA1563BD1F149F5F0061FA2E /* Sources */,
+				DA1563BE1F149F5F0061FA2E /* Frameworks */,
+				DA1563BF1F149F5F0061FA2E /* Resources */,
+				BBEE5066CA50A4CB7EFBB7E0 /* [CP] Embed Pods Frameworks */,
+				7D76EE9BFC64ED27F87E24C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDFaceDetectionDemo;
+			productName = ZDFaceDetectionDemo;
+			productReference = DA1563C11F149F5F0061FA2E /* ZDFaceDetectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1563D91F149F600061FA2E /* ZDFaceDetectionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1563F11F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemoTests" */;
+			buildPhases = (
+				27CACF16B49A533BFBC8512E /* [CP] Check Pods Manifest.lock */,
+				DA1563D61F149F600061FA2E /* Sources */,
+				DA1563D71F149F600061FA2E /* Frameworks */,
+				DA1563D81F149F600061FA2E /* Resources */,
+				E4094ADF9A1C9463A5A2B073 /* [CP] Embed Pods Frameworks */,
+				80818CE86499564F3DFB2FA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1563DC1F149F600061FA2E /* PBXTargetDependency */,
+			);
+			name = ZDFaceDetectionDemoTests;
+			productName = ZDFaceDetectionDemoTests;
+			productReference = DA1563DA1F149F600061FA2E /* ZDFaceDetectionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1563E41F149F600061FA2E /* ZDFaceDetectionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1563F41F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemoUITests" */;
+			buildPhases = (
+				F635CF31A831CA867C76059A /* [CP] Check Pods Manifest.lock */,
+				DA1563E11F149F600061FA2E /* Sources */,
+				DA1563E21F149F600061FA2E /* Frameworks */,
+				DA1563E31F149F600061FA2E /* Resources */,
+				2FD24C050E191CB96F01E4E4 /* [CP] Embed Pods Frameworks */,
+				9F7A6CB14CE8FF27D51D2E86 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1563E71F149F600061FA2E /* PBXTargetDependency */,
+			);
+			name = ZDFaceDetectionDemoUITests;
+			productName = ZDFaceDetectionDemoUITests;
+			productReference = DA1563E51F149F600061FA2E /* ZDFaceDetectionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1563B91F149F5F0061FA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZD;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zero.D.Saber;
+				TargetAttributes = {
+					DA1563C01F149F5F0061FA2E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DA1563D91F149F600061FA2E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1563C01F149F5F0061FA2E;
+					};
+					DA1563E41F149F600061FA2E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1563C01F149F5F0061FA2E;
+					};
+				};
+			};
+			buildConfigurationList = DA1563BC1F149F5F0061FA2E /* Build configuration list for PBXProject "ZDFaceDetectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1563B81F149F5F0061FA2E;
+			productRefGroup = DA1563C21F149F5F0061FA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1563C01F149F5F0061FA2E /* ZDFaceDetectionDemo */,
+				DA1563D91F149F600061FA2E /* ZDFaceDetectionDemoTests */,
+				DA1563E41F149F600061FA2E /* ZDFaceDetectionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1563BF1F149F5F0061FA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1563D41F149F5F0061FA2E /* LaunchScreen.storyboard in Resources */,
+				DA1563D11F149F5F0061FA2E /* Assets.xcassets in Resources */,
+				DA1563CF1F149F5F0061FA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563D81F149F600061FA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563E31F149F600061FA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CACF16B49A533BFBC8512E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD24C050E191CB96F01E4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemoUITests/Pods-ZDFaceDetectionDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		344F0C21DC3849D04A60600F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D76EE9BFC64ED27F87E24C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemo/Pods-ZDFaceDetectionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80818CE86499564F3DFB2FA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemoTests/Pods-ZDFaceDetectionDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7A6CB14CE8FF27D51D2E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemoUITests/Pods-ZDFaceDetectionDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEE5066CA50A4CB7EFBB7E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemo/Pods-ZDFaceDetectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4094ADF9A1C9463A5A2B073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZDFaceDetectionDemoTests/Pods-ZDFaceDetectionDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F635CF31A831CA867C76059A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1563BD1F149F5F0061FA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1564051F14A7010061FA2E /* UIImage+fixOrientation.m in Sources */,
+				DA1563FA1F14A0500061FA2E /* ViewController.m in Sources */,
+				DA1563FD1F14A0680061FA2E /* ZDFaceDetectController.m in Sources */,
+				DA1563C91F149F5F0061FA2E /* AppDelegate.m in Sources */,
+				DA1563C61F149F5F0061FA2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563D61F149F600061FA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1563DF1F149F600061FA2E /* ZDFaceDetectionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1563E11F149F600061FA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1563EA1F149F600061FA2E /* ZDFaceDetectionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1563DC1F149F600061FA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1563C01F149F5F0061FA2E /* ZDFaceDetectionDemo */;
+			targetProxy = DA1563DB1F149F600061FA2E /* PBXContainerItemProxy */;
+		};
+		DA1563E71F149F600061FA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1563C01F149F5F0061FA2E /* ZDFaceDetectionDemo */;
+			targetProxy = DA1563E61F149F600061FA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1563CD1F149F5F0061FA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1563CE1F149F5F0061FA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1563D21F149F5F0061FA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1563D31F149F5F0061FA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1563EC1F149F600061FA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA1563ED1F149F600061FA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1563EF1F149F600061FA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFFECFEA26A367FC7D6995D /* Pods-ZDFaceDetectionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDFaceDetectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA1563F01F149F600061FA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F458FDC9F2F48073044A476 /* Pods-ZDFaceDetectionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDFaceDetectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA1563F21F149F600061FA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD66891680715ECD05396958 /* Pods-ZDFaceDetectionDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDFaceDetectionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDFaceDetectionDemo.app/ZDFaceDetectionDemo";
+			};
+			name = Debug;
+		};
+		DA1563F31F149F600061FA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F526A6B6882AC116F93496 /* Pods-ZDFaceDetectionDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDFaceDetectionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDFaceDetectionDemo.app/ZDFaceDetectionDemo";
+			};
+			name = Release;
+		};
+		DA1563F51F149F600061FA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E6A0269A3559BD15958125 /* Pods-ZDFaceDetectionDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZDFaceDetectionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDFaceDetectionDemo;
+			};
+			name = Debug;
+		};
+		DA1563F61F149F600061FA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6A2480F657D88D4D6D8ED1 /* Pods-ZDFaceDetectionDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZDFaceDetectionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zero.ZDFaceDetectionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZDFaceDetectionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1563BC1F149F5F0061FA2E /* Build configuration list for PBXProject "ZDFaceDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1563EC1F149F600061FA2E /* Debug */,
+				DA1563ED1F149F600061FA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1563EE1F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1563EF1F149F600061FA2E /* Debug */,
+				DA1563F01F149F600061FA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1563F11F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1563F21F149F600061FA2E /* Debug */,
+				DA1563F31F149F600061FA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1563F41F149F600061FA2E /* Build configuration list for PBXNativeTarget "ZDFaceDetectionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1563F51F149F600061FA2E /* Debug */,
+				DA1563F61F149F600061FA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1563B91F149F5F0061FA2E /* Project object */;
+}
