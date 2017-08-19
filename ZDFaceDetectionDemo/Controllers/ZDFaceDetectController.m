@@ -10,6 +10,7 @@
 // https://github.com/daiweiping/Scanner-AVCapture
 // https://github.com/clisuper/CLFaceDetectionImagePicker
 // http://www.jianshu.com/p/b5618066dc2c
+// https://github.com/June0611/EyeBlickCheck
 
 #import "ZDFaceDetectController.h"
 #import <AVFoundation/AVFoundation.h>
@@ -135,6 +136,7 @@
 //从摄像头缓冲区获取图像
 #pragma mark -
 #pragma mark AVCaptureVideoDataOutputSampleBufferDelegate
+
 - (void)captureOutput:(AVCaptureOutput *)captureOutput
 didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
        fromConnection:(AVCaptureConnection *)connection {
